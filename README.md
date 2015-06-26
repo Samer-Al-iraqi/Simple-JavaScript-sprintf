@@ -9,7 +9,7 @@ alert(text); // Hello Ahmed And Ali
 ```
 This method will handle the difference between number of search placeholders and number of replacement arguments properly.
 
-##Use
+##Examples
 ```javascript
 var text = "Hello %s And %s";
 text.sprintf(); // Hello   And 
