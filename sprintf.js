@@ -1,5 +1,5 @@
 String.prototype.sprintf = function () {
-	if(!arguments.length) return this.toString();
+	if(!arguments.length) return this.split('%s').join('');
 	var text=this.split('%s'),result=text.shift();
 	$.each(arguments, function(i, value){
 		if(!text.length) return result;
